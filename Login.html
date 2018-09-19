@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- nama folder gak boleh ada spasinya kalo pakek xampp-->
+<html>
+	<head>
+		<title>Informatika 1 - Wearnes Education Center madiun</title>
+		<link rel="stylesheet" href="css/Style.css">
+		<style>
+			form{
+				margin:60px auto;
+				border:#7CC74E 1px solid;
+				background-color: #0000000;
+				padding: 3px 10px 10px;
+				width: 500px;
+				border-top:#7CC74E 3px solid;
+				box-shadow: 1px 3px 9px yellow;
+				border-radius: 5px; 
+			}
+			label{
+				display: inline-block;
+				width: 220px;
+				vertical-align: top;
+			}
+
+			input{
+				line-height: 20px;
+				font-size: 15px;
+				height: 15px;
+				width: 250px;
+				margin-top: 3px;
+			}
+			button{
+				background-color: #00000000;
+				color: lightgrey;
+				border: none;
+				line-height: 24px;
+				padding: 5px 10px;
+				text-shadow: 1px 1px black;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- logo dan judul website -->
+		<header>
+			<img class="logo" src="img/LogoMakr_3NI3rf.png">
+			<h2 class="judul">Informatika 1 - 2018</h2>
+			<h4 class="subjudul">Wearnes Education Center Madiun</h4>
+		</header>
+		<!-- hr untuk garis horizontal -->
+
+		<!-- menu-->
+		<ul class="menu">
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Blog.html">Blog</a></li>
+			<li><a href="Galery.html">Galery</a></li>
+			<li><a href="About.html">About</a></li>
+			<li class="submenu">
+				<a href="#">Dashboard</a>	
+				<ul>
+					<li><a href="Login.html">Login</a></li>
+					<li><a href="Register.html">Register</a></li>
+				</ul>
+			</li>
+		</ul>
+		<form>
+			<h2>Login</h2>
+			<div>
+				<label>Username / Email Address :</label>
+				<input type="Email" name="">
+			</div>
+			<div>
+				<label>Password :</label>
+				<input type="Password">
+			</div>
+			<div>
+				<button type="Submit"><b>LOGIN</b></button>
+			</div>
+		</form>
+	</body>
+</html>
